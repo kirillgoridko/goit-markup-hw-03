@@ -44,6 +44,9 @@ img{
 }
 
 /* Logo */
+.header-index{
+    border-bottom: 1px solid #ECECEC
+}
 
 .logo{
     margin-right: 93px;
@@ -125,6 +128,7 @@ header .site-contact{
     padding: 200px 253px;
 }
 .hero-title{
+    max-width: 700px;
     margin-bottom: 30px;
     color: var(--white-text-bg-color);
     font-weight: 900;
@@ -250,11 +254,18 @@ header .site-contact{
     font-weight: 400;
     font-style:normal ;
 }
-.site-contact .down :focus,
-.site-contact .down :hover{
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+.site-contact .down :hover,
+.site-contact .down :focus{
+    color: var(--footer-email-tel);
 }
+
+
+.site-contact .down{
+    font-weight: 400;
+    padding: 0; 
+    display: inline-block
+}
+
 .footer .logo .back{
    margin-bottom: 20px; 
 }
@@ -262,17 +273,22 @@ header .site-contact{
     margin-top: 9px;
 }
 
-.site-contact .down{
-    padding: 0;
+
+
+/* ======Portfolio.html ======== */
+
+.header-portfolio{
+    border-bottom: 1px solid #ECECEC;
+}
+.section-up{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-/* Portfolio.html */
-
 .work-filter{
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 .work-filter .item+.item{
     margin-left: 8px;
@@ -292,7 +308,6 @@ header .site-contact{
 .work-elements:nth-last-child(-n+3){
     margin-bottom: 0;
 }
-    
 
 .button{
     border: none;
@@ -313,6 +328,7 @@ header .site-contact{
     background-color: var(--accent-color);
 }
 .work-title{
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -320,6 +336,7 @@ header .site-contact{
     color: var(--title-text-color);
 }
 .work-text{
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -327,5 +344,11 @@ header .site-contact{
 .work-link{
     text-decoration: none;
     color: var(--primary-text-color);
+}
+.work-title-text{
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
