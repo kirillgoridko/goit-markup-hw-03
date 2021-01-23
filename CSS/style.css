@@ -124,8 +124,9 @@ header .site-contact{
     background-color: var(--bg-footer-color);
     text-align: center;
 }
-.container.hero{
-    padding: 200px 253px;
+.container-hero{
+    padding: 200px 252px;
+    text-align: center;
 }
 .hero-title{
     max-width: 700px;
@@ -257,7 +258,8 @@ header .site-contact{
 .site-contact .down :hover,
 .site-contact .down :focus{
     color: var(--footer-email-tel);
-}
+} 
+
 
 
 .site-contact .down{
