@@ -140,6 +140,7 @@ header .site-contact{
     text-transform: uppercase;
 }
 .hero-button{
+    border: 1 solid var(--accent-color);
     border-radius: 4px;
     padding: 10px 32px;
     min-width: 200px;
