@@ -261,14 +261,13 @@ header .site-contact{
 } 
 
 
-
 .site-contact .down{
     font-weight: 400;
     padding: 0; 
     display: inline-block
 }
 
-.footer .logo .back{
+.footer .logo{
    margin-bottom: 20px; 
 }
 .site-contact .site-contact-item+.site-contact-item{
